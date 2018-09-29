@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".DetailsOfEvent"
+    tools:showIn="@layout/activity_details_of_event">
+    <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:columnCount="2"
+        android:rowCount="2"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true">
+        <TextView
+            android:id="@+id/textView7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@+id/tripName"
+            android:text="name"
+            android:layout_marginLeft="20dp"
+            android:textSize="20dp"
+            android:textColor="@color/blue"
+            android:layout_marginTop="30dp"/>
+
+
+    <TextView
+        android:id="@+id/tripName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp" />
+
+        <TextView
+            android:id="@+id/textView8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@+id/tripFrom"
+            android:text="from"
+            android:layout_marginLeft="20dp"
+            android:textSize="20dp"
+            android:textColor="@color/blue"
+            android:layout_marginTop="30dp"/>
+
+    <TextView
+        android:id="@+id/tripFrom"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:text="TextView" />
+
+        <TextView
+            android:id="@+id/textView9"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/Tripto"
+            android:layout_marginLeft="20dp"
+            android:textSize="20dp"
+            android:textColor="@color/blue"
+            android:layout_marginTop="30dp"
+
+            android:text="to" />
+
+
+        <TextView
+        android:id="@+id/Tripto"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+        android:text="TextView" />
+
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/Tripto"
+            android:layout_marginLeft="20dp"
+            android:textSize="20dp"
+            android:textColor="@color/blue"
+            android:layout_marginTop="30dp"
+            android:text="" />
+
+
+        <Button
+            android:id="@+id/mapBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:text="open map"
+            android:background="@drawable/buttondesign"
+            android:textColor="@color/white"/>
+    </GridLayout>
+
+
+</ScrollView>
